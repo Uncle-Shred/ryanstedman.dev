@@ -1,0 +1,44 @@
+html {
+    // base font: 20px (1rem)
+    font-size: 125%;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    max-width: 1480px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+// footer positioning
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
