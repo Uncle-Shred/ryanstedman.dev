@@ -221,10 +221,6 @@ template {
   overflow: hidden;
 }
 
-h1 {
-  background-color: red;
-}
-
 html {
   font-size: 125%;
   scroll-behavior: smooth;
@@ -248,29 +244,4 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-ul,
-li,
-a,
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }

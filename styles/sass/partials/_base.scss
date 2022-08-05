@@ -24,21 +24,3 @@ a {
     text-decoration: none;
 }
 
-ul,
-li,
-a,
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-    padding: 0;
-}
-
-// footer positioning
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
