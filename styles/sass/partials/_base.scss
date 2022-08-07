@@ -4,9 +4,14 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ebf4fa;
+}
+
 .wrapper {
     max-width: 1480px;
-    width: 85%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -22,5 +27,14 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+p {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 15px;
+    color: #333333;
+    letter-spacing: 0;
 }
 
