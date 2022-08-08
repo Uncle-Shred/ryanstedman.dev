@@ -347,6 +347,7 @@ button:hover {
 }
 .my-bio h2 {
   color: #F95353;
+  text-transform: uppercase;
 }
 .my-bio p {
   font-size: 1rem;
@@ -415,15 +416,20 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
   width: 30%;
   background-color: rgb(255, 255, 255);
-  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-bottom: solid #F95353 5px;
 }
 .port-container h3 {
   color: #F95353;
 }
-.port-container p {
+
+.port-button {
+  padding: 0.5rem;
   margin-bottom: 2rem;
 }
 
