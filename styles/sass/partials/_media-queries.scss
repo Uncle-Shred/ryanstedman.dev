@@ -1,0 +1,15 @@
+// for 760px and below
+
+@media (max-width: 760px) {
+    .nav-links {
+        align-content: center;
+    }
+
+}
+
+@media (min-width: 760px) {
+    .bio-section {
+        display: flex;
+        flex-direction: row;
+    }
+}

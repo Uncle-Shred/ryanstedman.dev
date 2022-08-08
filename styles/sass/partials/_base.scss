@@ -38,3 +38,26 @@ p {
     letter-spacing: 0;
 }
 
+
+button {
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
+    padding: 15px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.8s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    width: 12rem;
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+

@@ -296,6 +296,30 @@ p {
   letter-spacing: 0;
 }
 
+button {
+  background-image: -webkit-gradient(linear, left top, right top, from(#FF512F), color-stop(51%, #DD2476), to(#FF512F));
+  background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
+  padding: 15px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  width: 12rem;
+  margin-top: 2rem;
+}
+
+button:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
 .bio-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -326,14 +350,6 @@ p {
 }
 .my-bio p {
   font-size: 1rem;
-}
-
-button {
-  width: 10rem;
-  background-color: #F95353;
-  border: none;
-  padding: 0.5rem;
-  margin-top: 1rem;
 }
 
 .services h2 {
@@ -380,8 +396,46 @@ button {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
+.portfolio h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #F95353;
+  border-radius: solid 2px 4px #f95353;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.port-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-bottom: solid #F95353 5px;
+}
+.port-container h3 {
+  color: #F95353;
+}
+.port-container p {
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: darkgrey;
+  padding: 1rem;
+  margin-top: 10rem;
+}
 footer h4 {
   text-align: center;
+  font-size: 0.7rem;
+  margin: 0;
 }
 
 .intro-section {
@@ -408,4 +462,22 @@ footer h4 {
 .intro-section p {
   font-size: 1rem;
   width: 60%;
+}
+
+@media (max-width: 760px) {
+  .nav-links {
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+@media (min-width: 760px) {
+  .bio-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
